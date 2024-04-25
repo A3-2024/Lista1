@@ -33,7 +33,13 @@ public class Item {
         this.categoria = categoria;
     }
 
+    @Override
     public String toString(){
-        return jogos + " " + categoria + " "  + avaliacao;
+        return "| Jogo:" + jogos + "| Categoria:" +  categoria + "| Avaliação:" +  avaliacao + " |";
+
     }
+
+
+
+
 }

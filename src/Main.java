@@ -1,28 +1,30 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+
 
 public class Main {
+
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\gabri\\Downloads\\JogosDesordenados.csv");
+        String file = "C:\\Users\\gabri\\Downloads\\JogosDesordenados.csv";
 
-        Scanner sc = null;
+        // Chamando o método lerArquivo da classe leitorCSV
+        Item[] arquivo = LeitorCSV.lerArquivo(file);
 
-        try{
-            sc = new Scanner(file);
-            while(sc.hasNextLine()){
-                String linha = sc.nextLine();
-                System.out.println(linha);
+        
+        System.out.println("+++ Ordenado por avaliação +++");
 
-            }
+        BubbleSort.bubbleSort(arquivo, index);
+        int auxiliar = 1;
+        for(Item item : arquivo){
+            if(item !=null){
 
-        }catch(FileNotFoundException e){
-            System.out.println(e.getMessage());
-        }finally {
-            if(sc != null){
-                sc.close();
+                System.out.println(auxiliar+ ". " + item);
+
+                System.out.println("----------------------------------------------------------");
+               auxiliar++;
             }
         }
-
     }
+
+
+
+
 }
