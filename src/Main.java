@@ -9,6 +9,8 @@ public class Main {
 
 
         String file = "C:\\Users\\gabri\\Downloads\\JogosDesordenados.csv";
+        String localSalvado = "C:\\Users\\gabri\\Documents\\";
+
 
         do {
             System.out.println("[1] Ler Arquivo");
@@ -36,15 +38,30 @@ public class Main {
                     } else {
                         System.out.println("Não foi possível ler o arquivo.");
                     }
-
-
                     break;
+
+
 
                 case 2:
 
+                    Item[] archive = LeitorCSV.lerArquivo(file);
+                    assert archive != null;
+                    SelectionSort.ordenarPorCategoria(archive);
+                    SelectionSort.alfabetico(archive);
 
-                    System.out.println(" oi");
+                    String nomeSalvado = "JogosOrdenadoCategoriaAlfabetico.csv";
+
+
+
+                    System.out.println(SelectionSort.toString(archive));
+                    SelectionSort.salvarJogosOrdenadosPorCategoria(archive,nomeSalvado,localSalvado);
+
+
                     break;
+
+
+
+
                 case 3:
                     Item[] arquivo = LeitorCSV.lerArquivo(file);
                     BubbleSort.bubbleSort(arquivo, arquivo != null ? arquivo.length : 0);
@@ -65,17 +82,24 @@ public class Main {
 
 
                     String nomeArquivo = "JogosOrdenadosPorAvaliação.csv";
-                    String local = "C:\\Users\\gabri\\Documents\\";
-
-                    BubbleSort.salvarArquivoCSV(arquivo,nomeArquivo,local);
 
 
+                    BubbleSort.salvarArquivoCSV(arquivo,nomeArquivo,localSalvado);
                     break;
 
-                case 4:
-                    System.out.println("Bye Bye!!!");
 
+
+
+
+
+                case 4:
+
+
+                    System.out.println("Bye Bye!!!");
                 break;
+
+
+
 
                 default:
                     System.out.println("Insira um numero válido");
@@ -85,7 +109,19 @@ public class Main {
 
         } while (opcao != 4);
 
+
+
+
+
+
     }
+
+
+
+
+
+
+
 }
 
 
