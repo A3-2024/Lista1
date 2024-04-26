@@ -1,8 +1,8 @@
-//Organiza por avaliação
 import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class BubbleSort {
 
@@ -22,21 +22,20 @@ public class BubbleSort {
 
     }
 
-    public static void salvarArquivoCSV(Item[] arquivo, String nomeArquivo){
-        try(BufferedWriter escritor = new BufferedWriter(new FileWriter(nomeArquivo))){
+    public static void salvarArquivoCSV(Item[] arquivo, String nomeArquivo, String local){
+        try(BufferedWriter escritor = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(local + nomeArquivo)), "UTF-8"))){
 
             //Escrevendo o cabeçalho
 
-            escritor.write("Nome do Jogo, Avaliação, Categoria \n");
+            escritor.write("Nome do Jogo; Avaliação; Categoria \n");
 
             //Escrevendo os dados de cada jogo
 
-            for(Item item : arquivo){
-                escritor.write(String.format("%s,%.2f,%s",item.getJogos(),item.getAvaliacao(),item.getCategoria()));
-
+            for (Item item : arquivo) {
+                escritor.write(String.format("%s;%.2f;%s\n", item.getJogos(), item.getAvaliacao(), item.getCategoria()));
             }
 
-            System.out.println("Arquivo salvo com sucesso em ' "+ nomeArquivo + "'.");
+            System.out.println("Arquivo salvo com sucesso em ' "+ local+ "'.");
 
         }catch (IOException e){
             System.err.println("Erro ao salvar o arquivo CSV: " + e.getMessage());

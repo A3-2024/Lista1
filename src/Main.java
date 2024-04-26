@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -41,6 +42,7 @@ public class Main {
 
                 case 2:
 
+
                     System.out.println(" oi");
                     break;
                 case 3:
@@ -63,8 +65,9 @@ public class Main {
 
 
                     String nomeArquivo = "JogosOrdenadosPorAvaliação.csv";
+                    String local = "C:\\Users\\gabri\\Documents\\";
 
-                    BubbleSort.salvarArquivoCSV(arquivo,nomeArquivo);
+                    BubbleSort.salvarArquivoCSV(arquivo,nomeArquivo,local);
 
 
                     break;
