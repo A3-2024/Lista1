@@ -125,23 +125,4 @@ public class Main {
 }
 
 
-//        // Chamando o método lerArquivo da classe leitorCSV
-//
-//
-//
-//        System.out.println("+++ Ordenado por avaliação +++");
-//
-//        BubbleSort.bubbleSort(arquivo, arquivo.length);
-//
-//
-//
-//        int auxiliar = 1;
-//        for(Item item : arquivo){
-//            if(item !=null){
-//
-//                System.out.println(auxiliar+ ". " + item);
-//                System.out.println("----------------------------------------------------------");
-//               auxiliar++;
-//            }
-//        }
-//    }
+
