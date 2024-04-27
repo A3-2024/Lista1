@@ -121,7 +121,7 @@ Posteriormente, utilizamos o algoritmo de  SelectionSort  para organizar os iten
 </p>
 
 <details>
-  <summary>  ⭐Código </summary>
+  <summary>  ⭐ Código </summary>
 
 ```
 import java.io.FileWriter;
@@ -265,6 +265,7 @@ public class BubbleSort {
 
 <img  width=60% src="https://github.com/S4-2024/Lista1/blob/main/arquivos/opcao_1%262.gif">
 
+### Main
 
 <p> O primeiro componente implementado no `Main` foi a lógica do menu. E após
 confirmamos o funcionamento de todos as classes de ordenação, finalmente integramos
@@ -274,9 +275,9 @@ e estruturada.</p>
 
 <details>
 
-### Main
+
     
-  <summary>  ⭐Main </summary>
+  <summary> ⭐ Código </summary>
 
 ```
 import java.util.List;
