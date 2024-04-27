@@ -1,8 +1,19 @@
-<h1 align=center> 👽 Lista 1 👽 </h1>
+
+
+<img src="https://github.com/S4-2024/Lista1/blob/main/imagens/ESTRUTURAS%20DE%20DADOS%20E%20ALGORITMOS.png">
+
+<h4 align="center" >    
+   
+[![Gabrielle Soares- 422221763](https://img.shields.io/badge/Gabrielle_Soares-422221763-pink?style=for-the-badge&logo=github&logoColor=pinkr)](https://github.com/gabriellesote)
+[![ Anna Clara - 422142003](https://img.shields.io/static/v1?label=+Anna+Clara&message=422142003&color=C683D7&style=for-the-badge&logo=github&logoColor=C683D7)](https://github.com/byasun)
+
+</h4>
 
 <h4 align="center" > <em> Professores: Rafaela & Poyatos  </em>  </h4>
 
- <h3> 👾 Sobre a lista  </h3>
+<details>
+<summary>  <h3> 👾 Sobre a lista  </h3> </summary>
+
 
 <p>
 Uma empresa de aplicativos de jogos, contratou você para desenvolver uma
@@ -57,16 +68,13 @@ vetor do tipo Item. Item é uma classe com os atributos:
 
  
 </p>
-
+</details>
 
 
  <h2> Resolução </h2>
  
 [![Códigos](https://img.shields.io/badge/Códigos-blueviolet?style=for-the-badge&logo=github&logoColor=white+)](https://github.com/S4-2024/Lista1/tree/main/src)
  
-<h2 >🧙‍♂️Membros </h2>
 
-[![Gabrielle Soares- 422221763](https://img.shields.io/badge/Gabrielle_Soares-422221763-pink?style=for-the-badge&logo=github&logoColor=pink)](https://github.com/gabriellesote)
-[![ Anna Clara - 422142003](https://img.shields.io/static/v1?label=+Anna+Clara&message=422142003&color=C683D7&style=for-the-badge&logo=github&logoColor=C683D7)](https://github.com/byasun)
   
 
