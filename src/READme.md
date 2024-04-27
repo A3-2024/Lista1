@@ -1,3 +1,5 @@
+<img src="https://github.com/S4-2024/Lista1/blob/main/imagens/ESTRUTURAS%20DE%20DADOS%20E%20ALGORITMOS.png">
+
 <h1 align="center">  💗 Lista 1 - Ordenação de Jogos 💗  </h1>
 
 <p > 
