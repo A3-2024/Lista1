@@ -11,6 +11,25 @@
 
 <h4 align="center" > <em> Professores: Rafaela & Poyatos  </em>  </h4>
 
+# Sobre
+
+
+***Tema:*** Esta atividade foca na resolução de um desafio específico enfrentado por uma empresa fictícia.
+<br>
+***Objetivo:*** Utilizar os conhecimentos adquiridos em sala de aula sobre algoritmos de ordenação e programação em Java, de forma abrangente.
+
+Em nosso projeto, optamos por implementar os algoritmos de SelectionSort e BubbleSort, devido à sua simplicidade e eficácia na resolução do problema.
+<br>
+#### BubbleSort
+O algoritmo de ordenação Bubblesort visa percorrer um conjunto de elementos várias vezes, e a cada viagem, o algoritmo "flutua" para o topo o maior elemento da sequência. Ele verifica a ordem dos dados dois a dois, e trocando-os de lugar se necessário.
+
+##### Complexidade
+
+|  Complexidade pior caso    	|  O(n²) |
+|---	|---	|
+|  Complexidade caso médio	   | O(n²)  |
+|  Complexidade melhor caso	|  O(n) 	|
+
 <details>
 <summary>  <h3> 👾 Sobre a lista  </h3> </summary>
 
