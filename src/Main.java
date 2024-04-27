@@ -27,7 +27,7 @@ public class Main {
                                 System.out.println();
                             }
                         }
-                    } else {
+                    else {
                         System.out.println("Não foi possível ler o arquivo.");
                     }
                     break;
