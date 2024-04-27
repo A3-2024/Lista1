@@ -9,7 +9,7 @@
 
 </h4>
 
-<h4 align="center" > <em> Professores: Rafaela & Poyatos  </em>  </h4>
+<h4 align="center" > <em> Professores: Rafaela Moreira & Daniel Poyatos  </em>  </h4>
 
 # Sobre
 
@@ -20,20 +20,70 @@
 
 Em nosso projeto, optamos por implementar os algoritmos de SelectionSort e BubbleSort, devido à sua simplicidade e eficácia na resolução do problema.
 <br>
-#### BubbleSort
+
+### BubbleSort
 O algoritmo de ordenação Bubblesort visa percorrer um conjunto de elementos várias vezes, e a cada viagem, o algoritmo "flutua" para o topo o maior elemento da sequência. Ele verifica a ordem dos dados dois a dois, e trocando-os de lugar se necessário.
+
+
+
 
 ##### Complexidade
 
-|  Complexidade pior caso    	|  O(n²) |
+
+
+
+
+| Complexidade pior caso  |  O(n²) |
+| - | -|
+| Complexidade caso médio	| O(n²)  |
+| Complexidade melhor caso	|  O(n) 	|
+
+
+##### Implementação (Java) 
+
+```
+for (int i = 0; i < caracteres.length - 1; i++) {
+            for (int j = 0; j < caracteres.length - i - 1; j++) {
+                if (caracteres[j] > caracteres[j + 1]) {
+                    char temp = caracteres[j];
+                    caracteres[j] = caracteres[j + 1];
+                    caracteres[j + 1] = temp;
+                }
+            }
+        }
+```
+
+
+
+### SelectionSort
+
+O algoritmo de ordenação SelectionSort visa sempre passar o menor valor do vetor para a primeira posição (ou maior, depende da necessidade), depois o do segundo menor valor para a posição, e assim continuadamente com os <em> n-1 </em> elementos restantes, até finalizar. Ele é composto por dois laços, um laço externo e outro interno. O externo serve para controlar o índice inicial e o interno percorre todo o vetor. 
+
+| Complexidade pior caso    	|  O(n²) |
 |---	|---	|
-|  Complexidade caso médio	   | O(n²)  |
-|  Complexidade melhor caso	|  O(n) 	|
+| Complexidade caso médio	   | O(n²)  |
+| Complexidade melhor caso	|  O(n²) 	|
+
+```
+for (int i = 0; i < nomes.size() - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < nomes.size(); j++) {
+                if (nomes.get(j).length() < nomes.get(minIndex).length()) {
+                    minIndex = j;
+                }
+            }
+```
+
 
 <details>
-<summary>  <h3> 👾 Sobre a lista  </h3> </summary>
+<summary>  <h2> 👾 Sobre a lista  </h2> </summary>
 
+<h3 align="center" >
 
+[![PDF](https://img.shields.io/badge/PDF-pink?style=for-the-badge&logo=github&logoColor=white+)](https://github.com/S4-2024/Lista1/blob/main/arquivos/EDAAA3ListadeExerccios1_20240415175717.pdf)
+</h3>
+ 
+ 
 <p>
 Uma empresa de aplicativos de jogos, contratou você para desenvolver uma
 solução para o seguinte problema:
@@ -84,6 +134,7 @@ vetor do tipo Item. Item é uma classe com os atributos:
 
 → Opção 4: <br>
  * Fechar o programa.
+
 
  
 </p>
