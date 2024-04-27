@@ -1,14 +1,14 @@
-<img src="https://github.com/S4-2024/Lista1/blob/main/imagens/ESTRUTURAS%20DE%20DADOS%20E%20ALGORITMOS.png">
+<img src="https://github.com/S4-2024/Lista1/blob/main/arquivos/lista1.png">
 
-<h1 align="center">  💗 Lista 1 - Ordenação de Jogos 💗  </h1>
+<h1 align="center">  💗 Ordenação de Jogos 💗  </h1>
 
+### Classe Item
 <p > 
 Optamos por começar desenvolvendo a classe `Item`, estabelecendo assim todos os parâmetros necessários para a classe `LeitorCSV`. 
 </p>
 
 <details> 
-
-<summary> <h3> 🎀 Classe Item </h3></summary>
+<summary>  ⭐ Código </summary>
 
 ```
 
@@ -50,13 +50,14 @@ public class Item {
 
 </details>
 
+### Classe LeitorCSV
+
 <p > 
  Em seguida, criamos a classe `LeitorCSV`, responsável por ler o arquivo `JogosDesordenados.csv`. Esta classe organiza as informações contidas no CSV em vetores, utilizando o método `linha.split(",")` para separar e distinguir cada célula delimitada por vírgulas. Os dados são então armazenados em um vetor do tipo `Item[]`, facilitando a passagem desses parâmetros para a classe `Item`.
 </p>
 
-<details> 
-
-<summary> <h3> ⭐ Classe  LeitorCSV </h3></summary>
+<details>
+<summary>  ⭐ Código </summary>
 
 ```
 import java.io.*;
@@ -108,11 +109,19 @@ public class LeitorCSV {
 
 
 
+<img   width=60% src="https://github.com/S4-2024/Lista1/blob/main/arquivos/codigo_funcionando.gif">
+
+
+
+
+### SelectionSort
+
 <p>
 Posteriormente, utilizamos o algoritmo de  SelectionSort  para organizar os itens por categorias. Dentro de cada categoria, os jogos foram organizados em ordem alfabética usando o `BubbleSort`. Além disso, criamos um método para salvar os dados ordenados em um novo arquivo CSV.
 </p>
+
 <details>
-  <summary> <h3> 💫SelectionSort </summary>
+  <summary>  ⭐Código </summary>
 
 ```
 import java.io.FileWriter;
@@ -199,16 +208,16 @@ public class SelectionSort {
 
 }
 
-```
-
-    
+```    
 </details>
+
+### BubbleSort
 
 <p> Continuando com as melhorias, desenvolvemos outra função de `BubbleSort` para ordenar os jogos por avaliação, em ordem decrescente. Após finalizar essa lógica, implementamos um método que permite salvar o arquivo ordenado em um novo CSV. </p>
 
 
 <details>
-  <summary> <h3> 🫧 BubbleSort </summary>
+  <summary>  ⭐ Código </summary>
 
 ```import java.io.BufferedWriter;
 import java.io.File;
@@ -254,6 +263,9 @@ public class BubbleSort {
     
 </details>
 
+<img  width=60% src="https://github.com/S4-2024/Lista1/blob/main/arquivos/opcao_1%262.gif">
+
+
 <p> O primeiro componente implementado no `Main` foi a lógica do menu. E após
 confirmamos o funcionamento de todos as classes de ordenação, finalmente integramos
 todas essas funcionalidades ao menu do `Main`, permitindo uma interação fluida e eficaz
@@ -261,7 +273,10 @@ com o usuário, capaz de executar todas as operações previstas de maneira orga
 e estruturada.</p>
 
 <details>
-  <summary> <h3> 🎛️Main </summary>
+
+### Main
+    
+  <summary>  ⭐Main </summary>
 
 ```
 import java.util.List;
@@ -352,4 +367,6 @@ complicações próprias ao lidar com arquivos UTF-8.
 Por isso, disponibilizamos um link que pode auxiliar nesse aspecto: [Tutorial](https://support.microsoft.com/pt-br/office/abrir-arquivos-utf-8-do-csv-corretamente-no-excel-8a935af5-3416-4edd-ba7e-3dfd2bc4a032)
 </em> 
 </p>
+
+<img width=60% src="https://github.com/S4-2024/Lista1/blob/main/arquivos/excel.gif">
 
