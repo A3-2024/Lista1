@@ -1,6 +1,6 @@
 
 
-<img src="https://github.com/S4-2024/Lista1/blob/main/imagens/ESTRUTURAS%20DE%20DADOS%20E%20ALGORITMOS.png">
+<img src="https://github.com/S4-2024/Lista1/blob/main/arquivos/ESTRUTURAS%20DE%20DADOS%20E%20ALGORITMOS.png">
 
 <h4 align="center" >    
    
