@@ -2,7 +2,16 @@
 
 <h1 align="center">  💗 Ordenação de Jogos 💗  </h1>
 
-### Classe Item
+<h4 align="center" >    
+   
+[![Gabrielle Soares- 422221763](https://img.shields.io/badge/Gabrielle_Soares-422221763-pink?style=for-the-badge&logo=github&logoColor=pinkr)](https://github.com/gabriellesote)
+[![ Anna Clara - 422142003](https://img.shields.io/static/v1?label=+Anna+Clara&message=422142003&color=C683D7&style=for-the-badge&logo=github&logoColor=C683D7)](https://github.com/byasun)
+<br>
+[![Sobre a atividade](https://img.shields.io/static/v1?label=&message=Sobre+a+atividade&color=pink&style=for-the-badge&logo=github)](https://github.com/S4-2024/Lista1/tree/main)
+
+</h4>
+
+### 💠 Classe Item
 <p > 
 Optamos por começar desenvolvendo a classe `Item`, estabelecendo assim todos os parâmetros necessários para a classe `LeitorCSV`. 
 </p>
@@ -50,7 +59,7 @@ public class Item {
 
 </details>
 
-### Classe LeitorCSV
+### 💠 Classe LeitorCSV
 
 <p > 
  Em seguida, criamos a classe `LeitorCSV`, responsável por ler o arquivo `JogosDesordenados.csv`. Esta classe organiza as informações contidas no CSV em vetores, utilizando o método `linha.split(",")` para separar e distinguir cada célula delimitada por vírgulas. Os dados são então armazenados em um vetor do tipo `Item[]`, facilitando a passagem desses parâmetros para a classe `Item`.
@@ -114,7 +123,7 @@ public class LeitorCSV {
 
 
 
-### SelectionSort
+### 💠 SelectionSort
 
 <p>
 Posteriormente, utilizamos o algoritmo de  SelectionSort  para organizar os itens por categorias. Dentro de cada categoria, os jogos foram organizados em ordem alfabética usando o `BubbleSort`. Além disso, criamos um método para salvar os dados ordenados em um novo arquivo CSV.
@@ -211,7 +220,7 @@ public class SelectionSort {
 ```    
 </details>
 
-### BubbleSort
+### 💠 BubbleSort
 
 <p> Continuando com as melhorias, desenvolvemos outra função de `BubbleSort` para ordenar os jogos por avaliação, em ordem decrescente. Após finalizar essa lógica, implementamos um método que permite salvar o arquivo ordenado em um novo CSV. </p>
 
@@ -265,7 +274,7 @@ public class BubbleSort {
 
 <img  width=60% src="https://github.com/S4-2024/Lista1/blob/main/arquivos/opcao_1%262.gif">
 
-### Main
+### 💠 Main
 
 <p> O primeiro componente implementado no `Main` foi a lógica do menu. E após
 confirmamos o funcionamento de todos as classes de ordenação, finalmente integramos
