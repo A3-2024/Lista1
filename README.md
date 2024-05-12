@@ -11,6 +11,12 @@
 
 <h4 align="center" > <em> Professores: Rafaela Moreira & Daniel Poyatos  </em>  </h4>
 
+<div align="center" >
+   
+[![Códigos](https://img.shields.io/badge/Códigos-blueviolet?style=for-the-badge&logo=github&logoColor=white+)](https://github.com/S4-2024/Lista1/tree/main/src)
+
+</div>
+
 # Sobre
 
 
@@ -141,9 +147,7 @@ vetor do tipo Item. Item é uma classe com os atributos:
 </details>
 
 
- <h2> Resolução </h2>
- 
-[![Códigos](https://img.shields.io/badge/Códigos-blueviolet?style=for-the-badge&logo=github&logoColor=white+)](https://github.com/S4-2024/Lista1/tree/main/src)
+
  
 
   <img src="https://giffiles.alphacoders.com/215/215911.gif">
